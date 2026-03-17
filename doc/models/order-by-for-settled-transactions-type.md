@@ -1,0 +1,32 @@
+
+# Order by for Settled Transactions Type
+
+The fields for sorting the settled transactions type.
+
+*This model accepts additional fields of type Object.*
+
+## Structure
+
+`OrderByForSettledTransactionsType`
+
+## Fields
+
+| Name | Type | Tags | Description | Getter | Setter |
+|  --- | --- | --- | --- | --- | --- |
+| `FieldName` | [`FieldName`](../../doc/models/field-name.md) | Optional | **Constraints**: *Maximum Length*: `21` | FieldName getFieldName() | setFieldName(FieldName fieldName) |
+| `OrderBy` | [`OrderBy`](../../doc/models/order-by.md) | Optional | **Constraints**: *Maximum Length*: `4` | OrderBy getOrderBy() | setOrderBy(OrderBy orderBy) |
+| `AdditionalProperties` | `Map<String, Object>` | Optional | - | Object getAdditionalProperty(String key) | additionalProperty(String key, Object value) |
+
+## Example (as JSON)
+
+```json
+{
+  "fieldName": "CARD_TYPE",
+  "orderBy": "ASC",
+  "exampleAdditionalProperty": {
+    "key1": "val1",
+    "key2": "val2"
+  }
+}
+```
+
