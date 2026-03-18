@@ -48,7 +48,7 @@ public final class ReportingSettlementResearchApiClient implements Configuration
 
     private static final CompatibilityFactory compatibilityFactory = new CompatibilityFactoryImpl();
 
-    private static String userAgent = "Java SDK, Version: 1.0.1, on OS {os-info}";
+    private static String userAgent = "Java SDK, Version: 1.0.3, on OS {os-info}";
 
     /**
      * Current API environment.
